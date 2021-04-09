@@ -4,6 +4,7 @@
 ### University of California
 ### Santa Barbara, CA
 
+ <br><br>
 
 ## INTRODUCTION
   Automation of the way we pay for goods and services is already underway, as can be seen by the variety and growth of electronic banking services available to consumers. The ultimate structure of the new electronic payments system may have a substantial impact on personal privacy as well as on the nature and extent of criminal use of payments. Ideally a new payments system should address both of these seemingly conflicting sets of concerns. 
@@ -16,6 +17,8 @@
   (1) Inability of third parties to determine payee, time or amount of payments made by an individual.
   (2) Ability of individuals to provide proof of payment, or to determine the identity of the payee under exceptional circumstances.
   (3) Ability to stop use of payments media reported stolen.
+  
+<br>
   
 ## BLIND SIGNATURE CRYPTOSYSTEMS
   The new kind of cryptography will be introduced first in terms of an analogy and then by description of its parts, their use, and the resulting security properties. No actual example cryptosystem is presented.
@@ -55,6 +58,8 @@
   
   As is common in cryptographic work, the possibility that the same random number could be generated independently is ignored.
   
+<br>  
+
 ## UNTRACEABLE PAYMENTS SYSTEM
   An example payment transaction will illustrate how the blind signature systems introduced above can be used to make an untraceable payments system. The critical concept is that the bank will sign anything with its private key, but anything so signed is worth a fixed amount, say $1. The actors in the example below are a bank, a payer, and a payee. A single note will be formed by the paer, signed by the bank, stripped by the payer, provided to the payee, and cleared by the bank. The following traces the detailed steps of a single payment transaction:
   
@@ -84,7 +89,8 @@
 ### Elaborations
   The simple system of the above example could be extended in various ways to provide economy of mechanism, disaggregation of services, and decentralization. For example, obvious efficiences would result from use of multiple denomination notes. The banking and clearing house functions could be separated. There might be multiple banks; multiple clearing houses could serve different or overlapping bnaks. Periodic changes of the key(s) used to sign notes might increase security, increase auditability, and reduce uncertainty about the size of the money supply. 
   
-  
+<br>
+
 ## SUMMARY AND IMPLICATIONS
   A new kind of cryptography, blind signatures, has been introduced. It allows realization of untraceable payments systems which offer improved auditability and control compared to current systems, while at the same time offering increased personal privacy. 
   
